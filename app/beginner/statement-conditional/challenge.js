@@ -1,4 +1,13 @@
 /**
+ * Challenge:
+ * Check the password using if and else if.
+ * Print "Welcome" if the password is exactly 8 characters,
+ * a message that it is too short if it has fewer than 8 characters,
+ * a message that it is too long if it has more than 8 characters,
+ * and ask for a password if no value was provided.
+ */
+
+/**
  * Variabel password belum memiliki nilai, jadi isinya adalah undefined.
  * Ganti dengan angka untuk mencoba kondisi di bawah.
  */

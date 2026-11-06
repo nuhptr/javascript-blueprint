@@ -1,72 +1,84 @@
 # JavaScript Blueprint
 
-Kumpulan materi dan latihan untuk belajar JavaScript secara bertahap, mulai dari konsep fundamental hingga topik lanjutan. Setiap topik berisi contoh kode yang dapat dijalankan secara mandiri.
+A collection of learning materials and exercises for studying JavaScript step by step, from fundamental concepts to advanced topics. Each topic includes code examples that can be run independently.
 
-## Tentang proyek
+## About the project
 
-Proyek ini dibuat sebagai peta belajar (_learning roadmap_) JavaScript. Materi fundamental disusun dari konsep dasar, pengambilan keputusan, perulangan, hingga struktur data.
+This project is a JavaScript learning roadmap. The fundamental topics cover core concepts, decision-making, loops, and data structures.
 
-**Tujuan belajar:**
+**Learning goals:**
 
-- Memahami konsep dasar JavaScript melalui contoh kode.
-- Mencoba dan mengubah contoh untuk melihat hasilnya.
-- Mengerjakan file `challenge.js` sebagai latihan mandiri.
+- Understand JavaScript fundamentals through code examples.
+- Experiment with and modify examples to see how they work.
+- Complete the `challenge.js` files as independent exercises.
 
-## Memulai
+## Getting started
 
-Pastikan [Node.js](https://nodejs.org/) sudah terpasang. Jalankan contoh dari direktori utama proyek dengan perintah:
+Make sure [Node.js](https://nodejs.org/) is installed. From the project root, run an example with:
 
 ```bash
 node app/beginner/variables/index.js
 ```
 
-Ganti path file dengan contoh yang ingin dijalankan. Untuk latihan, jalankan file `challenge.js` pada folder topik yang sesuai.
+Replace the file path with the example you want to run. To practice, run the `challenge.js` file in the relevant topic folder.
 
-## Progres materi fundamental
+## Fundamental learning progress
 
-**Cakupan saat ini: 17 topik memiliki materi atau contoh kode.** Status ini menunjukkan ketersediaan materi di repositori, bukan penilaian penguasaan belajar.
+**Repository coverage: 17/17 listed fundamental topics have learning materials or code examples.** This reflects the availability of materials in the repository, not a learner's mastery or the completeness of the entire JavaScript curriculum.
 
-|   # | Topik                                                  | Materi                               |
-| --: | ------------------------------------------------------ | ------------------------------------ |
-|   1 | [Console dan komentar](app/beginner/)                  | Tersedia                             |
-|   2 | [Variabel](app/beginner/variables/)                    | Tersedia                             |
-|   3 | [Angka](app/beginner/numbers/)                         | Tersedia                             |
-|   4 | [String](app/beginner/strings/)                        | Tersedia                             |
-|   5 | [Konversi tipe data](app/beginner/type-conversation/)  | Tersedia                             |
-|   6 | [Boolean](app/beginner/booleans/)                      | Tersedia                             |
-|   7 | [Operator perbandingan](app/beginner/comparison/)      | Tersedia                             |
-|   8 | [Operator logika](app/beginner/logical-operator/)      | Tersedia                             |
-|   9 | [Kondisi `if`](app/beginner/statement-conditional/)    | Tersedia                             |
-|  10 | [Pernyataan `switch`](app/beginner/statement-switch/)  | Tersedia                             |
-|  11 | [Perulangan `for`](app/beginner/loop-for/)             | Tersedia                             |
-|  12 | [Perulangan `while`](app/beginner/loop-while/)         | Tersedia                             |
-|  13 | [Perulangan `do...while`](app/beginner/loop-do-while/) | Tersedia                             |
-|  14 | [Infinite loop](app/beginner/loop-infinite/)           | Tersedia — contoh, jangan dijalankan |
-|  15 | [Array](app/beginner/arrays/)                          | Tersedia                             |
-|  16 | [Metode dasar array](app/beginner/array-basic-method/) | Tersedia                             |
-|  17 | [Object](app/beginner/objects/)                        | Tersedia                             |
+|   # | Topic                                                    | Status                               |
+| --: | -------------------------------------------------------- | ------------------------------------ |
+|   1 | [Console and comments](app/beginner/)                    | Available                            |
+|   2 | [Variables](app/beginner/variables/)                     | Available                            |
+|   3 | [Numbers](app/beginner/numbers/)                         | Available                            |
+|   4 | [Strings](app/beginner/strings/)                         | Available                            |
+|   5 | [Type conversion](app/beginner/type-conversation/)       | Available                            |
+|   6 | [Booleans](app/beginner/booleans/)                       | Available                            |
+|   7 | [Comparison operators](app/beginner/comparison/)         | Available                            |
+|   8 | [Logical operators](app/beginner/logical-operator/)      | Available                            |
+|   9 | [`if` conditionals](app/beginner/statement-conditional/) | Available                            |
+|  10 | [`switch` statements](app/beginner/statement-switch/)    | Available                            |
+|  11 | [`for` loops](app/beginner/loop-for/)                    | Available                            |
+|  12 | [`while` loops](app/beginner/loop-while/)                | Available                            |
+|  13 | [`do...while` loops](app/beginner/loop-do-while/)        | Available                            |
+|  14 | [Infinite loops](app/beginner/loop-infinite/)            | Available — example only; do not run |
+|  15 | [Arrays](app/beginner/arrays/)                           | Available                            |
+|  16 | [Basic array methods](app/beginner/array-basic-method/)  | Available                            |
+|  17 | [Objects](app/beginner/objects/)                         | Available                            |
 
-## Cara belajar
+## What's next
 
-1. Ikuti topik dari atas ke bawah.
-2. Baca `index.js` dan jalankan contoh menggunakan Node.js.
-3. Ubah nilai atau kode, lalu jalankan lagi untuk mengamati perbedaannya.
-4. Coba kerjakan `challenge.js` tanpa melihat contoh terlebih dahulu.
-5. Catat topik yang sudah dipelajari dan ulangi bagian yang masih membingungkan.
+After completing the fundamentals above, the planned next topics are:
 
-> **Perhatian:** File di `loop-infinite` berisi contoh perulangan yang tidak berhenti. Jangan jalankan file tersebut.
+1. **Functions** — create reusable blocks of code.
+2. **Scope** — understand where variables can be accessed.
+3. **Advanced arrays** — work with collections using methods such as `map`, `filter`, and `find`.
+4. **DOM** — select and modify web page elements with JavaScript.
+5. **Asynchronous JavaScript** — learn about Promises and `async`/`await`.
 
-## Struktur direktori
+These topics are part of the learning roadmap and may not yet be available in the repository.
+
+## How to learn
+
+1. Follow the topics from top to bottom.
+2. Read `index.js` and run the example with Node.js.
+3. Change the values or code, then run it again to observe the results.
+4. Try completing `challenge.js` before looking at the examples.
+5. Track the topics you've studied and revisit anything that is still unclear.
+
+> **Warning:** The file in `loop-infinite` contains a loop that does not stop. Do not run it.
+
+## Directory structure
 
 ```text
 app/
-├── beginner/       # Materi fundamental JavaScript
-├── intermediate/   # Materi tingkat menengah
-├── advanced/       # Materi tingkat lanjut
-├── dom/            # Materi Document Object Model
-└── gsap/           # Materi animasi dengan GSAP
+├── beginner/       # JavaScript fundamentals
+├── intermediate/   # Intermediate topics
+├── advanced/       # Advanced topics
+├── dom/            # Document Object Model
+└── gsap/           # Animation with GSAP
 ```
 
-## Kontribusi
+## Contributing
 
-Kontribusi untuk memperjelas materi, menambah contoh, atau memperbaiki latihan sangat diapresiasi. Usahakan setiap contoh tetap fokus pada satu konsep dan mudah dijalankan secara mandiri.
+Contributions that clarify the materials, add examples, or improve exercises are welcome. Please keep each example focused on one concept and easy to run independently.

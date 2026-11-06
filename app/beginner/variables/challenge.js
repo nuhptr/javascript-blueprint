@@ -1,4 +1,12 @@
 /**
+ * Challenge:
+ * 1. Create variables to store a name, age, and profession.
+ * 2. Use const for values that don't need to change and let for values that do.
+ * 3. Check the data types with typeof and print the values.
+ * 4. Try changing the age and a property on the student object.
+ */
+
+/**
  * Variabel adalah nama untuk menyimpan nilai agar dapat digunakan kembali.
  *
  * Deklarasi membuat variabel, sedangkan inisialisasi memberi nilai awal.

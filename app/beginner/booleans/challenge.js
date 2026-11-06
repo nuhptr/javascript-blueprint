@@ -1,4 +1,11 @@
 /**
+ * Challenge:
+ * Use the attendee's information to decide whether they can enter the event.
+ * They must be at least 18, have paid, and have a ticket or be on the guest list.
+ * Print the reason if they are not allowed to enter.
+ */
+
+/**
  * Simulasi pemeriksaan akses ke sebuah acara.
  */
 const attendeeName = "Alya"

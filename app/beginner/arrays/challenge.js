@@ -1,4 +1,12 @@
 /**
+ * Challenge:
+ * 1. Create an empty array, an array of numbers, and an array of strings.
+ * 2. Create an array containing different types of values.
+ * 3. Use indexes to get the first and second values from an array.
+ *    Remember, the first index is 0.
+ */
+
+/**
  * Array adalah tempat untuk menyimpan beberapa nilai dalam satu variabel.
  * Nilai di dalam array ditulis di antara [ ] dan dipisahkan dengan koma.
  */

@@ -1,4 +1,12 @@
 /**
+ * Challenge:
+ * 1. Store two favorite numbers in variables.
+ * 2. Compare them using >, <, >=, and <=.
+ * 3. Check equality and inequality using ===, !==, ==, and !=.
+ * 4. Observe the true or false results.
+ */
+
+/**
  * Simpan dua angka favorit ke dalam variabel.
  * Variabel adalah nama untuk menyimpan nilai.
  */
