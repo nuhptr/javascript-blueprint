@@ -1,4 +1,14 @@
 /**
+ * Challenge:
+ * Use strings to:
+ * 1. Join a first name and a last name.
+ * 2. Add a greeting to a name.
+ * 3. Count characters and change letter case.
+ * 4. Get part of a string, split its characters, and search for text.
+ * 5. Remove whitespace from the beginning and end of a string.
+ */
+
+/**
  * String adalah teks, seperti nama.
  * Teks ditulis di antara tanda kutip.
  */

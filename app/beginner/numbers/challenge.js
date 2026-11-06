@@ -1,4 +1,11 @@
 /**
+ * Challenge:
+ * Use two numbers to try addition, subtraction, multiplication,
+ * division, remainder, and exponentiation.
+ * Print the result of each operation to the console.
+ */
+
+/**
  * Angka pertama yang digunakan dalam operasi aritmetika.
  */
 let firstNumber = 21

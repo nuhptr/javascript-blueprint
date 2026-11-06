@@ -1,4 +1,11 @@
 /**
+ * Challenge:
+ * Use switch to check the value of fruits.
+ * Print a different message for Banana, Orange, and Apple.
+ * If none match, print the message from default.
+ */
+
+/**
  * switch memilih kode yang dijalankan berdasarkan nilai sebuah variabel.
  * Di contoh ini, nilai fruits adalah "Banana".
  */

@@ -1,4 +1,14 @@
 /**
+ * Challenge:
+ * Use array methods to:
+ * 1. Combine two arrays and check whether a value is present.
+ * 2. Add or remove values at the beginning or end of an array.
+ * 3. Sort an array and get part of its contents.
+ * 4. Add or replace values with splice().
+ * Check each result with console.log().
+ */
+
+/**
  * concat() menggabungkan dua array dan membuat array baru.
  * Array awal tidak berubah.
  */

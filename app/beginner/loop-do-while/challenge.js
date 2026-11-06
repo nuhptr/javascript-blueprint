@@ -1,4 +1,11 @@
 /**
+ * Challenge:
+ * Use do...while to print a name 400 times.
+ * Start counting at 20. Remember, do...while runs the code once
+ * before checking the condition.
+ */
+
+/**
  * Hitungan dimulai dari 20.
  */
 let i = 20

@@ -1,4 +1,11 @@
 /**
+ * Challenge:
+ * 1. Use for to print a name and the numbers from 0 to 1000.
+ * 2. Use for...of to print each name in an array.
+ * 3. Use for...in to print an object's properties and values.
+ */
+
+/**
  * for biasa mengulang kode selama kondisi masih benar.
  * i dimulai dari 0, bertambah 1 setiap putaran, dan berhenti setelah 1000.
  */
