@@ -1,82 +1,123 @@
 # JavaScript Blueprint
 
-A collection of learning materials and exercises for studying JavaScript step by step, from fundamental concepts to advanced topics. Each topic includes code examples that can be run independently.
+A collection of learning materials and exercises for studying JavaScript step by
+step, from fundamental concepts to intermediate topics. Most topics include
+independent code examples and practice files.
 
 ## About the project
 
-This project is a JavaScript learning roadmap. The fundamental topics cover core concepts, decision-making, loops, and data structures.
+This project is a JavaScript learning roadmap organized into `beginners` and
+`intermediate` materials. The repository currently covers core language
+primitives, control flow, functions, reference types, timers, JSON, template
+strings, collection helpers, and basic data structures.
 
 **Learning goals:**
 
 - Understand JavaScript fundamentals through code examples.
 - Experiment with and modify examples to see how they work.
-- Complete the `challenge.js` files as independent exercises.
+- Complete the `challenge.js`, `test.js`, and `test-ii.js` files as exercises.
 
 ## Getting started
 
-Make sure [Node.js](https://nodejs.org/) is installed. From the project root, run an example with:
+Make sure [Node.js](https://nodejs.org/) is installed. From the project root,
+run an example with:
 
 ```bash
-node app/beginner/variables/index.js
+node app/beginners/primitives/variables.js
 ```
 
-Replace the file path with the example you want to run. To practice, run the `challenge.js` file in the relevant topic folder.
+Replace the file path with the example you want to run.
 
-## Fundamental learning progress
+## Learning progress
 
-**Repository coverage: 17/17 listed fundamental topics have learning materials or code examples.** This reflects the availability of materials in the repository, not a learner's mastery or the completeness of the entire JavaScript curriculum.
+**Repository coverage: beginner and intermediate materials are available.**
+This describes the repository content, not a learner's mastery.
 
-|   # | Topic                                                    | Status                               |
-| --: | -------------------------------------------------------- | ------------------------------------ |
-|   1 | [Console and comments](app/beginner/)                    | Available                            |
-|   2 | [Variables](app/beginner/variables/)                     | Available                            |
-|   3 | [Numbers](app/beginner/numbers/)                         | Available                            |
-|   4 | [Strings](app/beginner/strings/)                         | Available                            |
-|   5 | [Type conversion](app/beginner/type-conversation/)       | Available                            |
-|   6 | [Booleans](app/beginner/booleans/)                       | Available                            |
-|   7 | [Comparison operators](app/beginner/comparison/)         | Available                            |
-|   8 | [Logical operators](app/beginner/logical-operator/)      | Available                            |
-|   9 | [`if` conditionals](app/beginner/statement-conditional/) | Available                            |
-|  10 | [`switch` statements](app/beginner/statement-switch/)    | Available                            |
-|  11 | [`for` loops](app/beginner/loop-for/)                    | Available                            |
-|  12 | [`while` loops](app/beginner/loop-while/)                | Available                            |
-|  13 | [`do...while` loops](app/beginner/loop-do-while/)        | Available                            |
-|  14 | [Infinite loops](app/beginner/loop-infinite/)            | Available — example only; do not run |
-|  15 | [Arrays](app/beginner/arrays/)                           | Available                            |
-|  16 | [Basic array methods](app/beginner/array-basic-method/)  | Available                            |
-|  17 | [Objects](app/beginner/objects/)                         | Available                            |
+### Beginner topics
+
+| Topic | Example and exercise location |
+| --- | --- |
+| Console and comments | [app/beginners/basics/](app/beginners/basics/) |
+| Variables | [app/beginners/primitives/](app/beginners/primitives/) |
+| Numbers | [app/beginners/primitives/](app/beginners/primitives/) |
+| Strings | [app/beginners/primitives/](app/beginners/primitives/) |
+| Type conversion | [app/beginners/primitives/](app/beginners/primitives/) |
+| Booleans | [app/beginners/primitives/](app/beginners/primitives/) |
+| Comparison and logical operators | [app/beginners/primitives/](app/beginners/primitives/) and [app/beginners/control-flow/](app/beginners/control-flow/) |
+| `if` and `switch` statements | [app/beginners/control-flow/](app/beginners/control-flow/) |
+| `for`, `while`, and `do...while` loops | [app/beginners/control-flow/](app/beginners/control-flow/) |
+| Infinite loops | [infinite-loop.js](app/beginners/control-flow/infinite-loop.js) — example only; do not run |
+| Arrays and basic array methods | [app/beginners/reference-types/](app/beginners/reference-types/) |
+| Objects | [app/beginners/reference-types/](app/beginners/reference-types/) |
+| Functions, function types, callbacks, and methods | [app/beginners/functions/](app/beginners/functions/) |
+| Function scope | [scope.js](app/beginners/functions/scope.js) |
+| Date and time | [app/beginners/date-time-and-timers/](app/beginners/date-time-and-timers/) |
+| Timers with `setInterval` and `setTimeout` | [set-interval-and-timeout.js](app/beginners/date-time-and-timers/set-interval-and-timeout.js) |
+| JSON | [app/beginners/json/](app/beginners/json/) |
+
+### Intermediate topics
+
+| Topic | Location |
+| --- | --- |
+| Template strings | [app/intermediate/template-string/](app/intermediate/template-string/) |
+| `for...of` loop | [app/intermediate/for-of-loop/](app/intermediate/for-of-loop/) |
+| `forEach` helper | [app/intermediate/foreach-helper/](app/intermediate/foreach-helper/) |
+| `map` helper | [app/intermediate/map-helper/](app/intermediate/map-helper/) |
+| `filter` helper | [app/intermediate/filter-helper/](app/intermediate/filter-helper/) |
+| `find` helper | [app/intermediate/find-helper/](app/intermediate/find-helper/) |
+| `every` and `some` helpers | [app/intermediate/every-and-some-helpers/](app/intermediate/every-and-some-helpers/) |
+| `reduce` helper | [app/intermediate/reducer-helper/](app/intermediate/reducer-helper/) |
+| Map | [app/intermediate/maps/](app/intermediate/maps/) |
+| Set | [app/intermediate/sets/](app/intermediate/sets/) |
 
 ## What's next
 
-After completing the fundamentals above, the planned next topics are:
+After completing the available beginner and intermediate materials, the planned
+next topics are:
 
-1. **Functions** — create reusable blocks of code.
-2. **Scope** — understand where variables can be accessed.
-3. **Advanced arrays** — work with collections using methods such as `map`, `filter`, and `find`.
-4. **DOM** — select and modify web page elements with JavaScript.
-5. **Asynchronous JavaScript** — learn about Promises and `async`/`await`.
+1. **DOM** — select and modify web page elements.
+2. **Asynchronous JavaScript** — learn Promises and `async`/`await`.
+3. **Modules** — organize code across multiple files and packages.
+4. **Object-oriented JavaScript** — work with classes and inheritance.
+5. **Advanced error handling** — validate input and manage failures.
 
-These topics are part of the learning roadmap and may not yet be available in the repository.
+These topics are part of the learning roadmap and are not yet available in the
+repository.
 
 ## How to learn
 
 1. Follow the topics from top to bottom.
-2. Read `index.js` and run the example with Node.js.
+2. Read the example file and run it with Node.js.
 3. Change the values or code, then run it again to observe the results.
-4. Try completing `challenge.js` before looking at the examples.
+4. Try completing the challenge or test file before looking at the solution.
 5. Track the topics you've studied and revisit anything that is still unclear.
 
-> **Warning:** The file in `loop-infinite` contains a loop that does not stop. Do not run it.
+> **Warning:** [infinite-loop.js](app/beginners/control-flow/infinite-loop.js)
+> contains a loop that does not stop. Do not run it.
 
 ## Directory structure
 
 ```text
 app/
-├── beginner/       # JavaScript fundamentals
-├── intermediate/   # Intermediate topics
-├── advanced/       # Advanced topics
-├── dom/            # Document Object Model
-└── gsap/           # Animation with GSAP
+├── beginners/
+│   ├── basics/
+│   ├── control-flow/
+│   ├── date-time-and-timers/
+│   ├── functions/
+│   ├── json/
+│   ├── primitives/
+│   └── reference-types/
+└── intermediate/
+    ├── every-and-some-helpers/
+    ├── filter-helper/
+    ├── find-helper/
+    ├── for-of-loop/
+    ├── foreach-helper/
+    ├── map-helper/
+    ├── maps/
+    ├── reducer-helper/
+    ├── sets/
+    └── template-string/
 ```
 
 ## Contributing
