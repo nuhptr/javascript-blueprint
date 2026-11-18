@@ -15,14 +15,18 @@ strings, collection helpers, and basic data structures.
 
 - Understand JavaScript fundamentals through code examples.
 - Experiment with and modify examples to see how they work.
-- Complete the `challenge.js`, `test.js`, and `test-ii.js` files as exercises.
+- Complete the available `*-test.js` files as exercises.
 
 ## Getting started
 
-Make sure [Node.js](https://nodejs.org/) is installed. From the project root,
-run an example with:
+Make sure [Bun](https://bun.sh/) or [Node.js](https://nodejs.org/) is installed.
+From the project root, run an example with either runtime:
 
 ```bash
+# Using Bun
+bun app/beginners/primitives/variables.js
+
+# Using Node.js
 node app/beginners/primitives/variables.js
 ```
 
@@ -87,9 +91,9 @@ repository.
 ## How to learn
 
 1. Follow the topics from top to bottom.
-2. Read the example file and run it with Node.js.
+2. Read the example file and run it with Bun or Node.js.
 3. Change the values or code, then run it again to observe the results.
-4. Try completing the challenge or test file before looking at the solution.
+4. Try completing the test file before looking at the implementation.
 5. Track the topics you've studied and revisit anything that is still unclear.
 
 > **Warning:** [infinite-loop.js](app/beginners/control-flow/infinite-loop.js)
