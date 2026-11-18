@@ -71,8 +71,10 @@ This describes the repository content, not a learner's mastery.
 | `find` helper | [app/intermediate/find-helper/](app/intermediate/find-helper/) |
 | `every` and `some` helpers | [app/intermediate/every-and-some-helpers/](app/intermediate/every-and-some-helpers/) |
 | `reduce` helper | [app/intermediate/reducer-helper/](app/intermediate/reducer-helper/) |
+| Arrow functions | [app/intermediate/arrow-function/](app/intermediate/arrow-function/) |
 | Map | [app/intermediate/maps/](app/intermediate/maps/) |
 | Set | [app/intermediate/sets/](app/intermediate/sets/) |
+| Symbols | [app/intermediate/symbols/](app/intermediate/symbols/) |
 
 ## What's next
 
@@ -112,6 +114,7 @@ app/
 │   ├── primitives/
 │   └── reference-types/
 └── intermediate/
+    ├── arrow-function/
     ├── every-and-some-helpers/
     ├── filter-helper/
     ├── find-helper/
@@ -121,6 +124,7 @@ app/
     ├── maps/
     ├── reducer-helper/
     ├── sets/
+    ├── symbols/
     └── template-string/
 ```
 
