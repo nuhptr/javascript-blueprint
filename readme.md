@@ -1,15 +1,16 @@
 # JavaScript Blueprint
 
 A collection of learning materials and exercises for studying JavaScript step by
-step, from fundamental concepts to intermediate topics. Most topics include
-independent code examples and practice files.
+step, from fundamental concepts to intermediate and advanced topics. Most topics
+include independent code examples and practice files.
 
 ## About the project
 
-This project is a JavaScript learning roadmap organized into `beginners` and
-`intermediate` materials. The repository currently covers core language
-primitives, control flow, functions, reference types, timers, JSON, template
-strings, collection helpers, and basic data structures.
+This project is a JavaScript learning roadmap organized into `beginners`,
+`intermediate`, and `advanced` materials. The repository currently covers core
+language primitives, control flow, functions, reference types, timers, JSON,
+template strings, collection helpers, modern ES6+ syntax, data structures,
+object-oriented programming (OOP), and asynchronous JavaScript.
 
 **Learning goals:**
 
@@ -34,7 +35,7 @@ Replace the file path with the example you want to run.
 
 ## Learning progress
 
-**Repository coverage: beginner and intermediate materials are available.**
+**Repository coverage: beginner, intermediate, and advanced materials are available.**
 This describes the repository content, not a learner's mastery.
 
 ### Beginner topics
@@ -72,20 +73,55 @@ This describes the repository content, not a learner's mastery.
 | `every` and `some` helpers | [app/intermediate/every-and-some-helpers/](app/intermediate/every-and-some-helpers/) |
 | `reduce` helper | [app/intermediate/reducer-helper/](app/intermediate/reducer-helper/) |
 | Arrow functions | [app/intermediate/arrow-function/](app/intermediate/arrow-function/) |
+| Default function parameters | [app/intermediate/default-function-parameter/](app/intermediate/default-function-parameter/) |
+| Enhanced object literals | [app/intermediate/enhanced-object-literal/](app/intermediate/enhanced-object-literal/) |
+| Spread operator | [app/intermediate/spread-operator/](app/intermediate/spread-operator/) |
+| Rest operator | [app/intermediate/rest-operator/](app/intermediate/rest-operator/) |
+| Destructuring (array, object, rename, function, nested, mixture) | [app/intermediate/destructuring/](app/intermediate/destructuring/) |
+| Ternary operator | [app/intermediate/ternary-operator/](app/intermediate/ternary-operator/) |
 | Map | [app/intermediate/maps/](app/intermediate/maps/) |
 | Set | [app/intermediate/sets/](app/intermediate/sets/) |
 | Symbols | [app/intermediate/symbols/](app/intermediate/symbols/) |
 
+### Advanced topics
+
+#### OOP
+
+| Topic | Location |
+| --- | --- |
+| `this` keyword | [app/advanced/oop/this-keyword/](app/advanced/oop/this-keyword/) |
+| Factory function | [app/advanced/oop/factory-function/](app/advanced/oop/factory-function/) |
+| Constructor function | [app/advanced/oop/constructor-function/](app/advanced/oop/constructor-function/) |
+| Built-in constructors | [app/advanced/oop/built-in-constructors/](app/advanced/oop/built-in-constructors/) |
+| `Object.create` | [app/advanced/oop/object-create/](app/advanced/oop/object-create/) |
+| Prototype model | [app/advanced/oop/prototype-model/](app/advanced/oop/prototype-model/) |
+| Prototypal inheritance | [app/advanced/oop/prototypal-inheritance/](app/advanced/oop/prototypal-inheritance/) |
+| ES6 classes | [app/advanced/oop/es6-classes/](app/advanced/oop/es6-classes/) |
+| Class modifiers | [app/advanced/oop/class-modifiers/](app/advanced/oop/class-modifiers/) |
+| Encapsulation | [app/advanced/oop/encapsulation/](app/advanced/oop/encapsulation/) |
+| Abstraction | [app/advanced/oop/abstraction/](app/advanced/oop/abstraction/) |
+| Inheritance | [app/advanced/oop/inheritance/](app/advanced/oop/inheritance/) |
+| Polymorphism | [app/advanced/oop/polymorphism/](app/advanced/oop/polymorphism/) |
+
+#### Async programming
+
+| Topic | Location |
+| --- | --- |
+| Sync vs Async | [app/advanced/async-programming/sync-vs-async/](app/advanced/async-programming/sync-vs-async/) |
+| Callback hell | [app/advanced/async-programming/callback-hell/](app/advanced/async-programming/callback-hell/) |
+| Promises | [app/advanced/async-programming/promises/](app/advanced/async-programming/promises/) |
+| `async` / `await` | [app/advanced/async-programming/async-await/](app/advanced/async-programming/async-await/) |
+| Fetch API | [app/advanced/async-programming/fetch-api/](app/advanced/async-programming/fetch-api/) |
+| `try` and `catch` | [app/advanced/async-programming/try-and-catch/](app/advanced/async-programming/try-and-catch/) |
+
 ## What's next
 
-After completing the available beginner and intermediate materials, the planned
-next topics are:
+After completing the available beginner, intermediate, and advanced materials,
+the planned next topics are:
 
 1. **DOM** — select and modify web page elements.
-2. **Asynchronous JavaScript** — learn Promises and `async`/`await`.
-3. **Modules** — organize code across multiple files and packages.
-4. **Object-oriented JavaScript** — work with classes and inheritance.
-5. **Advanced error handling** — validate input and manage failures.
+2. **Modules** — organize code across multiple files and packages.
+3. **Testing & custom error patterns** — write unit tests and structured error handling.
 
 These topics are part of the learning roadmap and are not yet available in the
 repository.
@@ -105,6 +141,28 @@ repository.
 
 ```text
 app/
+├── advanced/
+│   ├── async-programming/
+│   │   ├── async-await/
+│   │   ├── callback-hell/
+│   │   ├── fetch-api/
+│   │   ├── promises/
+│   │   ├── sync-vs-async/
+│   │   └── try-and-catch/
+│   └── oop/
+│       ├── abstraction/
+│       ├── built-in-constructors/
+│       ├── class-modifiers/
+│       ├── constructor-function/
+│       ├── encapsulation/
+│       ├── es6-classes/
+│       ├── factory-function/
+│       ├── inheritance/
+│       ├── object-create/
+│       ├── polymorphism/
+│       ├── prototypal-inheritance/
+│       ├── prototype-model/
+│       └── this-keyword/
 ├── beginners/
 │   ├── basics/
 │   ├── control-flow/
@@ -115,6 +173,16 @@ app/
 │   └── reference-types/
 └── intermediate/
     ├── arrow-function/
+    ├── default-function-parameter/
+    ├── destructuring/
+    │   ├── array-destructuring.js
+    │   ├── destructuring-mixture.js
+    │   ├── function-destructuring.js
+    │   ├── index.js
+    │   ├── nested-destructuring.js
+    │   ├── object-destructuring.js
+    │   └── rename-destructuring.js
+    ├── enhanced-object-literal/
     ├── every-and-some-helpers/
     ├── filter-helper/
     ├── find-helper/
@@ -123,9 +191,12 @@ app/
     ├── map-helper/
     ├── maps/
     ├── reducer-helper/
+    ├── rest-operator/
     ├── sets/
+    ├── spread-operator/
     ├── symbols/
-    └── template-string/
+    ├── template-string/
+    └── ternary-operator/
 ```
 
 ## Contributing
