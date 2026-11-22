@@ -28,3 +28,9 @@ When creating or editing JavaScript learning materials in this repository:
    - Use lowercase kebab-case names for all topic folders and files (e.g., `this-keyword/`, `async-programming/`, `array-destructuring.js`).
    - Every topic folder must use `index.js` as its main entry file.
    - When a topic is split into multiple files for distinct sub-concepts, keep each sub-file independently runnable and load them from `index.js`.
+
+## Git & Pull Request Workflow
+
+1. **Push only when requested**: Only run `git push` when the user explicitly asks to push directly. Otherwise, leave changes or commits local so the user can review them first.
+2. **Pull Requests (`dev` -> `main`)**: When asked to open a Pull Request to `main`, create it from `dev` via the GitHub website, then wait for user review and explicit confirmation before merging.
+3. **Keep `dev` branch**: Never delete the `dev` branch after merging a Pull Request into `main`.
