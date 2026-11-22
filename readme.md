@@ -115,6 +115,12 @@ This describes the repository content, not a learner's mastery.
 | Fetch API | [app/advanced/async-programming/fetch-api/](app/advanced/async-programming/fetch-api/) |
 | `try` and `catch` | [app/advanced/async-programming/try-and-catch/](app/advanced/async-programming/try-and-catch/) |
 
+#### Regular expressions
+
+| Topic | Location |
+| --- | --- |
+| Regular expressions (Regex) | [app/advanced/regex/](app/advanced/regex/) |
+
 ## What's next
 
 After completing the available beginner, intermediate, and advanced materials,
@@ -150,20 +156,21 @@ app/
 │   │   ├── promises/
 │   │   ├── sync-vs-async/
 │   │   └── try-and-catch/
-│   └── oop/
-│       ├── abstraction/
-│       ├── built-in-constructors/
-│       ├── class-modifiers/
-│       ├── constructor-function/
-│       ├── encapsulation/
-│       ├── es6-classes/
-│       ├── factory-function/
-│       ├── inheritance/
-│       ├── object-create/
-│       ├── polymorphism/
-│       ├── prototypal-inheritance/
-│       ├── prototype-model/
-│       └── this-keyword/
+│   ├── oop/
+│   │   ├── abstraction/
+│   │   ├── built-in-constructors/
+│   │   ├── class-modifiers/
+│   │   ├── constructor-function/
+│   │   ├── encapsulation/
+│   │   ├── es6-classes/
+│   │   ├── factory-function/
+│   │   ├── inheritance/
+│   │   ├── object-create/
+│   │   ├── polymorphism/
+│   │   ├── prototypal-inheritance/
+│   │   ├── prototype-model/
+│   │   └── this-keyword/
+│   └── regex/
 ├── beginners/
 │   ├── basics/
 │   ├── control-flow/
