@@ -77,6 +77,7 @@ This describes the repository content, not a learner's mastery.
 | Enhanced object literals | [app/intermediate/enhanced-object-literal/](app/intermediate/enhanced-object-literal/) |
 | Spread operator | [app/intermediate/spread-operator/](app/intermediate/spread-operator/) |
 | Rest operator | [app/intermediate/rest-operator/](app/intermediate/rest-operator/) |
+| Spread vs Rest operator (note) | [spread-vs-rest.md](app/intermediate/spread-vs-rest.md) |
 | Destructuring (array, object, rename, function, nested, mixture) | [app/intermediate/destructuring/](app/intermediate/destructuring/) |
 | Ternary operator | [app/intermediate/ternary-operator/](app/intermediate/ternary-operator/) |
 | Map | [app/intermediate/maps/](app/intermediate/maps/) |
@@ -194,6 +195,7 @@ app/
     ├── rest-operator/
     ├── sets/
     ├── spread-operator/
+    ├── spread-vs-rest.md
     ├── symbols/
     ├── template-string/
     └── ternary-operator/
