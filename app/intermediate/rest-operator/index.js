@@ -46,12 +46,7 @@ function createPersonProfile(firstName, lastName, ...hobbies) {
     }
 }
 
-const personProfile = createPersonProfile(
-    "anmastery",
-    "developer",
-    "programming",
-    "football",
-)
+const personProfile = createPersonProfile("anmastery", "developer", "programming", "football")
 console.log(personProfile) // { fullName: "anmastery developer", hobbies: ["programming", "football"] }
 
 /**
@@ -74,12 +69,7 @@ console.log(sum()) // 0
  * 5. Rest operator dalam destructuring array dan object.
  * Digunakan untuk mengambil sebagian nilai dan mengumpulkan sisanya.
  */
-const [primaryColor, secondaryColor, ...otherColors] = [
-    "red",
-    "green",
-    "blue",
-    "yellow",
-]
+const [primaryColor, secondaryColor, ...otherColors] = ["red", "green", "blue", "yellow"]
 console.log(primaryColor, secondaryColor) // "red" "green"
 console.log(otherColors) // ["blue", "yellow"]
 
