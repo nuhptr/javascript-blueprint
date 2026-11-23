@@ -1,6 +1,6 @@
 # JavaScript Blueprint
 
-A structured, hands-on JavaScript learning repository designed to build mastery step by step — from core fundamentals to modern ES6+ patterns, object-oriented programming, asynchronous JavaScript, and regular expressions.
+A structured, hands-on JavaScript learning repository designed to build mastery step by step — from core fundamentals to modern ES6+ patterns, object-oriented programming, asynchronous JavaScript, regular expressions, and DOM manipulation.
 
 Every topic is organized as a standalone, runnable example (with practice `*-test.js` files where applicable) so you can read, run, and experiment directly from the terminal.
 
@@ -18,7 +18,7 @@ node app/beginners/primitives/variables.js
 
 ## Learning Path
 
-All three tracks — **Beginner**, **Intermediate**, and **Advanced** — are available and ready to run.
+All four tracks — **Beginner**, **Intermediate**, **Advanced**, and **DOM** — are available and ready to run.
 
 ### Beginner topics
 
@@ -64,6 +64,24 @@ All three tracks — **Beginner**, **Intermediate**, and **Advanced** — are av
 - **Regular Expressions**
   - [Regular Expressions (Regex)](app/advanced/regex/)
 
+### DOM topics
+
+> [!NOTE]
+> DOM examples run in a browser environment. Open each topic's `index.html` in a browser and check the DevTools Console.
+
+- [What is DOM](app/dom/what-is-dom/) — `document` object tree and basic properties
+- [Accessing the DOM](app/dom/accessing-dom/) — `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `querySelector`, and `querySelectorAll`
+- [`innerText`, `textContent`, and `innerHTML`](app/dom/innertext-textcontent-innerhtml/) — reading and updating element content safely
+- [`classList`](app/dom/classlist/) — `add()`, `remove()`, `toggle()`, `contains()`, and `replace()`
+- [Getting and Setting Attributes](app/dom/getting-and-setting-attributes/) — DOM properties, `getAttribute()`, `setAttribute()`, and `dataset`
+- [Siblings & Traversal](app/dom/siblings/) — `parentElement`, `children`, `nextElementSibling`, and `previousElementSibling`
+- [Style](app/dom/style/) — inline `element.style` and `getComputedStyle()`
+- [Create, Insert & Remove Elements](app/dom/create-insert-remove-elements/) — `createElement()`, `append()`, `prepend()`, `insertBefore()`, `insertAdjacentElement()`, `removeChild()`, and `remove()`
+- [Three Ways to Add Events](app/dom/three-ways-to-add-events/) — inline handlers, `onclick`, `addEventListener()`, and the `event` object
+- **Events In-Depth**
+  - [Mouse Events](app/dom/events-in-depth/mouse/)
+  - [Keyboard Events](app/dom/events-in-depth/keyboard/)
+
 ## How to Learn
 
 1. Follow the learning path from **Beginner** to **Advanced**.
@@ -78,7 +96,6 @@ All three tracks — **Beginner**, **Intermediate**, and **Advanced** — are av
 
 Planned topics for future additions:
 
-- **DOM** — selecting, traversing, and manipulating web page elements
 - **Modules** — organizing code with ES Modules across files and packages
 - **Testing & Custom Errors** — writing unit tests and structured error handling
 
@@ -120,6 +137,19 @@ app/
 │   ├── json/
 │   ├── primitives/
 │   └── reference-types/
+├── dom/
+│   ├── accessing-dom/
+│   ├── classlist/
+│   ├── create-insert-remove-elements/
+│   ├── events-in-depth/
+│   │   ├── keyboard/
+│   │   └── mouse/
+│   ├── getting-and-setting-attributes/
+│   ├── innertext-textcontent-innerhtml/
+│   ├── siblings/
+│   ├── style/
+│   ├── three-ways-to-add-events/
+│   └── what-is-dom/
 └── intermediate/
     ├── arrow-function/
     ├── default-function-parameter/
