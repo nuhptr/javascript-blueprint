@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+p {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.teal {
+    color: teal;
+}
+
+.steelblue {
+    color: steelblue;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.pink {
+    color: deeppink;
+}
+
+.crimson {
+    color: crimson;
+}
+
+.chocolate {
+    color: chocolate;
+}
+
+.aqua {
+    color: darkcyan;
+}
