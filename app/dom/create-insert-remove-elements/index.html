@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Create, Insert, and Remove Elements</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                max-width: 600px;
+                margin: 20px auto;
+            }
+
+            .target {
+                border: 1px dashed #999;
+                padding: 8px;
+            }
+
+            .special {
+                color: teal;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Daftar untuk append, prepend, dan insertBefore -->
+        <ul class="number-list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+
+        <!-- Target untuk empat posisi insertAdjacentElement -->
+        <p class="target">Paragraf target</p>
+
+        <!-- Daftar yang akan dihapus -->
+        <ul class="old-list">
+            <li class="old-item">Item lama</li>
+            <li>Item lain</li>
+        </ul>
+        <h2 class="goodbye">Goodbye World</h2>
+
+        <script src="index.js"></script>
+    </body>
+</html>
