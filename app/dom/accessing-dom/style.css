@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.demo h1,
+.demo h2,
+.demo h3,
+.demo h4 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+.exercise {
+    margin-top: 32px;
+    padding: 16px;
+    background: pink;
+}
+
+.exercise > * {
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.exercise h4 {
+    background-color: red;
+}
+
+.green {
+    background: green;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.teal-container {
+    display: flex;
+    gap: 10px;
+}
+
+.teal {
+    background-color: teal;
+    color: white;
+    width: 70px;
+    text-align: center;
+}
