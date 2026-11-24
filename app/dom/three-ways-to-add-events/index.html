@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Three Ways to Add Events</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                max-width: 600px;
+                margin: 20px auto;
+            }
+
+            button {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .event-box {
+                padding: 12px;
+                background: #f1f1f1;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Cara 1 (kurang disarankan): inline event handler di HTML -->
+        <button type="button" onclick="console.log('Inline handler dijalankan')">Inline handler</button>
+
+        <!-- Cara 2 (kurang disarankan): property onclick -->
+        <button type="button" class="property-button">Property onclick</button>
+
+        <!-- Cara 3 (disarankan): addEventListener -->
+        <button type="button" class="listener-button">addEventListener</button>
+        <button type="button" class="once-button">Hanya sekali</button>
+
+        <!-- Event object -->
+        <div class="event-box">
+            Klik area ini atau
+            <strong class="event-child">teks tebal ini</strong>
+            untuk melihat event object.
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
